@@ -31,7 +31,7 @@ public class MyClassTest {
 
     @Test
     public void testadd() {
-        int a=20,b=0,c;
+        int a=20,b=20,c;
         c = my.add(a, b);
         assertEquals(40,c);
     }
