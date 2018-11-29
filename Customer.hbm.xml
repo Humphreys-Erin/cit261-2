@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 29, 2018 6:25:22 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="myhibernatetest.Customer" table="CUSTOMER" schema="APP">
+        <id name="customerid" type="int">
+            <column name="CUSTOMERID" precision="5" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="firstname" type="string">
+            <column name="FIRSTNAME" length="50" not-null="true" />
+        </property>
+        <property name="lastname" type="string">
+            <column name="LASTNAME" length="50" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
