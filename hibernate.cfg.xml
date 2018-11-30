@@ -4,9 +4,9 @@
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.DerbyDialect</property>
     <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>
-    <property name="hibernate.connection.url">jdbc:derby://localhost:1527/HibernateDB</property>
-    <property name="hibernate.connection.username">app</property>
-    <property name="hibernate.connection.password">app</property>
-    <mapping resource="myhibernatetest/Customer.hbm.xml"/>
+    <property name="hibernate.connection.url">jdbc:derby://localhost:1527/MyFamilyDB</property>
+    <property name="hibernate.connection.username">me</property>
+    <property name="hibernate.connection.password">me</property>
+    <mapping resource="myfamily/Family.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
